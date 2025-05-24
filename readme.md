@@ -4,7 +4,7 @@ This project implements an end-to-end data processing pipeline for NYC taxi data
 
 ## Architecture Overview
 
-![1748099212833](image/readme/1748099212833.png)The pipeline follows a modern data lakehouse architecture with the following components:
+![1748099212833](image/readme/architecture.png)The pipeline follows a modern data lakehouse architecture with the following components:
 
 1. **Data Ingestion**: Raw data lands in S3 staging area
 2. **Event-Driven Processing**: EventBridge detects new files and triggers Step Functions workflow
